@@ -3,6 +3,13 @@ mod types;
 mod datatype_string;
 mod datatype_tuple;
 mod datatype_array;
+mod datatype_vectors;
+mod conditionals;
+mod loops;
+mod functions;
+mod pointers_ref;
+mod structs;
+mod enums;
 fn main() {
     let mut check = String::new();
 
@@ -17,4 +24,11 @@ fn main() {
     datatype_string::run();
     datatype_tuple::run();
     datatype_array::run();
+    datatype_vectors::run();
+    conditionals::run();
+    loops::run();
+    functions::run();
+    pointers_ref::run();
+    structs::run();
+    enums::run();
 }
